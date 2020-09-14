@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const promotionRouter = require('./promotionRouter');
+const partnerRouter = require('./partnerRouter');
 
 const partnerRouter = express.Router();
 
