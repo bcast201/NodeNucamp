@@ -16,7 +16,7 @@ partnerRouter.route('/')
     res.end('partner get request');
 })
 .post((req, res) => {
-    res.end(`partner end request`);
+    res.end(`Will add the partner: ${req.body.name} with description: ${req.body.description}`);
 })
 .put((req, res) => {
     res.statusCode = 403;

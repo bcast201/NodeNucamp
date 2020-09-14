@@ -35,7 +35,7 @@ promotionRouter.route('/:promotionId')
     res.end('promotionId get request');
 })
 .post((req, res) => {
-    res.end(`promotion end request`);
+    res.end(`Will add the promotion: ${req.body.name} with description: ${req.body.description}`);
 })
 .put((req, res) => {
     res.statusCode = 403;
