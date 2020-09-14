@@ -35,7 +35,7 @@ campsiteRouter.route('/:campsiteId')
     res.end(`sending ${req.body.name} to you`);
 })
 .post((req, res) => {
-    res.end(`Will add the campsite: ${req.body.name} with description: ${req.body.description}`);
+    res.end(`Will add the campsite: 1 ${req.body.name} with description: ${req.body.description}`);
 })
 .put((req, res) => {
     res.statusCode = 403;
